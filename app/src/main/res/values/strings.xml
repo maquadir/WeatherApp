@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="enter_city_post_code">Enter city or post code</string>
+    <string name="get_weather">Get Weather</string>
+    <string name="get_current_location">Current location</string>
+    <string name="humidity">Humidity - %s g.m-3</string>
+    <string name="pressure">Pressure - %s p</string>
+    <string name="temp">Temperature - %s C</string>
+    <string name="max_temp">max temp - %s C</string>
+    <string name="min_temp">min temp - %s C</string>
+    <string name="location">Location - %s</string>
+</resources>
