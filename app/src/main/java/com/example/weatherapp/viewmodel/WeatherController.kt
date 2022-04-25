@@ -19,8 +19,7 @@ interface IWeatherInterface {
 
 class WeatherController(
     private val weatherRepository: WeatherRepository
-) : IWeatherInterface,
-    ViewModel() {
+) : IWeatherInterface, ViewModel() {
 
     override fun getWeatherInfo(input: String, callback: (Boolean, WeatherResponse?) -> Unit) {
         viewModelScope.launch(Dispatchers.Main) {
