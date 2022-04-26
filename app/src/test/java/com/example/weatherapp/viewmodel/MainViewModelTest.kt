@@ -9,6 +9,7 @@ import com.example.weatherapp.service.WeatherService
 import com.nhaarman.mockito_kotlin.mock
 import junit.framework.Assert.assertEquals
 import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.runBlocking
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -47,10 +48,9 @@ class MainViewModelTest {
 
 
     @Test
-    fun test_fetch_weather_info() {
+    fun test_fetch_weather_info() = runBlocking {
         weatherController.isWeatherFetched = true
         mainViewModel.fetchCurrentWeather("Sydney")
-
 
         assertEquals(mainViewModel.currentWeather.value, "WeatherResponse()") // Passes
     }
