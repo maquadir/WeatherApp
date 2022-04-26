@@ -28,3 +28,8 @@ The app follows the MVVM architecture with the following concepts utilized in th
 - Please do not use the map solution provided by openweathermap.org
 - Unit test your code(minimal)
 
+# High-level requirements
+- Search by city name or post code - Implement a search to allow the user to enter a city name or post code. The result of the search is to
+display the current weather information for the searched location.
+- Search by GPS - On the same search screen, also allow user to use GPS location instead to get current weather information.
+- Most recent search location loads automatically - When you come back to the app after closing it, the weather for the most recent search is displayed.
