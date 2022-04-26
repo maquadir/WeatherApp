@@ -33,3 +33,14 @@ The app follows the MVVM architecture with the following concepts utilized in th
 display the current weather information for the searched location.
 - Search by GPS - On the same search screen, also allow user to use GPS location instead to get current weather information.
 - Most recent search location loads automatically - When you come back to the app after closing it, the weather for the most recent search is displayed.
+
+# Screenshots
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/19331629/165214553-2208fe40-9e79-420b-a7a4-c5c4e34d60fc.png">
+
+<img width="327" alt="image" src="https://user-images.githubusercontent.com/19331629/165214582-37068e82-2d32-4119-8f65-98305bfd5d55.png">
+
+<img width="327" alt="image" src="https://user-images.githubusercontent.com/19331629/165214629-465643be-e091-4e00-b9a4-dd7c183697ac.png">
+
+
+# Testing
+- Tried to write manual unit tests but ended up using mockito which is partially complete
